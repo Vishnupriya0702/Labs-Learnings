@@ -16,11 +16,16 @@ on a.response=b.response
 
 
 
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar count-all  Sample2.tsv
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar code-filter Sample2.tsv 302
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar time-filter Sample2.tsv 302
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar count-by-code Sample2.tsv
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar sum-bytes-by-code Sample2.tsv
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar top-host Sample2.tsv
-spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab5-1.0-SNAPSHOT.jar comparison Sample2.tsv
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar count-all  19950630.23-19950801.00.tsv
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar code-filter 19950630.23-19950801.00.tsv 302
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar time-filter 19950630.23-19950801.00.tsv 804955673 805590159
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar count-by-code 19950630.23-19950801.00.tsv
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar sum-bytes-by-code 19950630.23-19950801.00.tsv
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar avg-bytes-by-code 19950630.23-19950801.00.tsv
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar top-host 19950630.23-19950801.00.tsv
+spark-submit --class edu.ucr.cs.cs167.vsubr010.App --master local[2] target/vsubr010-lab6-1.0-SNAPSHOT.jar comparison 19950630.23-19950801.00.tsv 805383872
 
+19950630.23-19950801.00.tsv
+vsubr010-lab6-1.0-SNAPSHOT.jar
+vsubr010-lab6-1.0-SNAPSHOT.jar
+vsubr010-lab6-1.0-SNAPSHOT.jar
